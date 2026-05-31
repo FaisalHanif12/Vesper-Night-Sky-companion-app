@@ -34,17 +34,17 @@ export default function SkyMapScreen() {
       </header>
 
       {/* Main Content Canvas */}
-      <main className="flex-1 mt-topbar-height p-gutter h-[calc(100vh-64px)] overflow-y-auto flex flex-col md:flex-row gap-grid-gap">
+      <main className="flex-1 mt-topbar-height p-gutter h-[calc(100vh-64px)] overflow-hidden flex flex-col md:flex-row gap-grid-gap">
 
         {/* Left Column: Sky Map (72%) */}
-        <section className="flex-[3] flex flex-col min-h-[600px] h-full relative">
-          <div className="mb-4">
+        <section className="flex-[3] flex flex-col h-full relative" style={{ minHeight: 0 }}>
+          <div className="mb-4 shrink-0">
             <div className="font-label-caps text-label-caps text-moonlight uppercase tracking-widest mb-1">SKY MAP · AUSTIN, TX · 09:42 PM</div>
             <h2 className="font-headline-lg text-headline-lg text-starlight">Tonight's sky</h2>
           </div>
-          <div className="flex-1 bg-[#0A0F1A] rounded-xl border border-faint-line relative overflow-hidden flex items-center justify-center p-4">
-            {/* Outer Map Ring */}
-            <div className="w-full max-w-[800px] aspect-square rounded-full border border-[#3A4566] relative flex items-center justify-center">
+          <div className="flex-1 min-h-0 bg-[#0A0F1A] rounded-xl border border-faint-line relative overflow-hidden flex items-center justify-center p-4">
+            {/* Outer Map Ring — height-driven so it never overflows the card */}
+            <div className="rounded-full border border-[#3A4566] relative flex items-center justify-center" style={{ height: '100%', aspectRatio: '1 / 1', maxWidth: '100%', maxHeight: 800 }}>
               {/* SVG Overlay for precise cartography */}
               <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 1000 1000">
                 {/* Azimuth Grid */}
