@@ -1,2 +1,5 @@
 # Claude Code local config
 .claude/
+
+# Production build output (deploy manually from /dist)
+dist/
