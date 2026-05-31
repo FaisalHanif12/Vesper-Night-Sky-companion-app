@@ -1,0 +1,101 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 24px 16px;
+  background-color: #141C30;
+  border-right: 1px solid #2A3552;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 240px;
+  z-index: 40;
+  overflow-y: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 48px;
+}
+
+.logoIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #E6BE7A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #E6BE7A;
+  flex-shrink: 0;
+}
+
+.logoTitle {
+  font-family: 'Fraunces', serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #E6BE7A;
+  letter-spacing: 0.1em;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.logoSub {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #9AA6BF;
+  margin: 0;
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+  border-right: 2px solid transparent;
+}
+
+.navItemActive {
+  color: #E6BE7A;
+  background-color: #1E2842;
+  border-right-color: #E6BE7A;
+}
+
+.navItemInactive {
+  color: #9AA6BF;
+}
+
+.navItemInactive:hover {
+  color: #E8EDF7;
+  background-color: rgba(30, 40, 66, 0.5);
+}
+
+.navLabel {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.bottomSection {
+  border-top: 1px solid #2A3552;
+  padding-top: 16px;
+  margin-top: auto;
+}

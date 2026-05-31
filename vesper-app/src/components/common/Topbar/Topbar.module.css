@@ -1,0 +1,41 @@
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  padding: 0 24px;
+  background-color: rgba(13, 19, 32, 0.9);
+  border-bottom: 1px solid #2A3552;
+  backdrop-filter: blur(8px);
+}
+
+.left {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.title {
+  font-family: 'Fraunces', serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #E8EDF7;
+  margin: 0;
+}
+
+.subtitle {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 13px;
+  color: #9AA6BF;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}

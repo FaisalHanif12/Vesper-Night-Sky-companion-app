@@ -1,0 +1,15 @@
+export const fontFamily = {
+  headlineDisplay: '"Fraunces", serif',
+  headlineLg: '"Fraunces", serif',
+  headlineMd: '"Fraunces", serif',
+  headlineSm: '"Fraunces", serif',
+  bodyLg: '"Hanken Grotesk", sans-serif',
+  bodyMd: '"Hanken Grotesk", sans-serif',
+  bodySm: '"Hanken Grotesk", sans-serif',
+  labelCaps: '"Hanken Grotesk", sans-serif',
+  dataXl: '"IBM Plex Mono", monospace',
+  dataLg: '"IBM Plex Mono", monospace',
+  dataMd: '"IBM Plex Mono", monospace',
+  dataSm: '"IBM Plex Mono", monospace',
+  quote: '"Fraunces", serif',
+} as const;
