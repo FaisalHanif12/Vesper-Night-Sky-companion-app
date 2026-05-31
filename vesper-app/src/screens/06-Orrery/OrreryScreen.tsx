@@ -103,7 +103,7 @@ export default function OrreryScreen() {
       </header>
 
       {/* Main Content Canvas */}
-      <main className="flex-1 ml-0 md:ml-[240px] mt-[64px] relative bg-midnight flex h-[calc(100vh-64px)] overflow-hidden">
+      <main className="flex-1 mt-[64px] relative bg-midnight flex h-[calc(100vh-64px)] overflow-hidden">
         {/* Orrery Area (Left/Center) */}
         <div className="flex-1 relative flex items-center justify-center p-8">
           {/* The Orrery Diagram */}

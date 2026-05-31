@@ -197,7 +197,7 @@ export default function PassesScreen() {
 
       {/* Main Content Canvas */}
       <main className="relative z-10 pt-topbar-height min-h-screen pb-24">
-        <div className="max-w-container-max mx-auto p-gutter lg:p-section-gap">
+        <div className="max-w-container-max mx-auto px-gutter pt-8 pb-24 lg:px-section-gap">
           {/* Page Header */}
           <header className="mb-10 anim-slide-up">
             <h2 className="font-headline-lg text-headline-lg text-starlight">Visible passes from Austin.</h2>

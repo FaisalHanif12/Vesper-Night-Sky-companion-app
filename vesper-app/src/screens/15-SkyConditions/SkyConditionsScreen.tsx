@@ -123,7 +123,7 @@ export default function SkyConditionsScreen() {
       `}</style>
 
       {/* Main Content Canvas */}
-      <div className="bg-midnight text-on-surface min-h-screen overflow-x-hidden font-body-md starfield pt-topbar-height p-gutter md:p-section-gap max-w-container-max mx-auto">
+      <div className="bg-midnight text-on-surface min-h-screen overflow-x-hidden font-body-md starfield px-gutter md:px-section-gap pb-section-gap max-w-container-max mx-auto" style={{ paddingTop: 'calc(64px + 24px)' }}>
 
         {/* Header */}
         <header className="mb-10 stagger-item" style={{ animationDelay: '0.1s' }}>

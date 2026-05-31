@@ -119,7 +119,7 @@ export default function ObservationLogScreen() {
       </header>
 
       {/* Main Canvas */}
-      <main className="pt-[calc(theme('spacing.topbar-height')+32px)] pl-0 md:pl-sidebar-width min-h-screen relative z-10 pb-24">
+      <main className="pt-topbar-height min-h-screen relative z-10 pb-24">
         <div className="max-w-container-max mx-auto px-4 sm:px-6 lg:px-8">
 
           {/* Header Section */}

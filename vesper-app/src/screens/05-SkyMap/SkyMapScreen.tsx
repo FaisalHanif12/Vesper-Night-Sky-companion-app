@@ -34,7 +34,7 @@ export default function SkyMapScreen() {
       </header>
 
       {/* Main Content Canvas */}
-      <main className="flex-1 ml-0 md:ml-sidebar-width mt-topbar-height p-gutter h-[calc(100vh-64px)] overflow-y-auto flex flex-col md:flex-row gap-grid-gap">
+      <main className="flex-1 mt-topbar-height p-gutter h-[calc(100vh-64px)] overflow-y-auto flex flex-col md:flex-row gap-grid-gap">
 
         {/* Left Column: Sky Map (72%) */}
         <section className="flex-[3] flex flex-col min-h-[600px] h-full relative">

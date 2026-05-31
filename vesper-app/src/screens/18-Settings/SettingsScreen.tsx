@@ -89,7 +89,7 @@ export default function SettingsScreen() {
       </header>
 
       {/* Settings Content Grid */}
-      <div className="max-w-container-max mx-auto px-gutter py-8 md:py-12">
+      <div className="max-w-container-max mx-auto px-gutter pt-topbar-height pb-12" style={{ paddingTop: 'calc(64px + 32px)' }}>
         <div className="mb-8 animate-slide-up">
           <h2 className="font-headline-lg text-headline-lg text-starlight mb-2">Settings</h2>
           <p className="font-body-md text-body-md text-moonlight">Manage your observatory preferences and identity.</p>
